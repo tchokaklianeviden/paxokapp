@@ -1,8 +1,0 @@
-django
-social-auth-app-django
-folium
-pandas
-polyline
-requests
-python-dotenv
-gunicorn==20.1.0
