@@ -40,7 +40,7 @@ def base_map(request):
 
         f_debug_trace("views.py","base_map/nom_prenom",nom_prenom)    
                                                 
-        # Make your map object
+        # Make your map object !
         view_region_info =  get_user_data_values(my_strava_user_id)            
         continent = "EUROPE"
         if view_region_info[0] == "AR":
